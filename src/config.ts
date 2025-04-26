@@ -15,22 +15,22 @@ export const SITE = {
 
 export const ME = {
     name: "Tenubar",
-    profession: "Modern web app Developer | Full Stack Developer",
+    profession: "Modern App Developer | Full Stack Developer",
     profileImage: "pp2.png",
     profileFacts: [
         {
-            value: 3,
+            value: 4,
             description: "Years of Experience"
         },
         {
-            value: 3,
+            value: 5,
             description: "Completed Projects"
         },
     ],
     contactInfo: {
         email: "tenubarr@gmail.com",
     },
-    aboutMe: "I am a 🌐 Web | 📱 App | 🎮 Game Developer. With high experience in Javascript, Phaser and NodeJS",
+    aboutMe: "I am a Web, App & Game Developer. With high experience in Building Platforms with React, Javascript and Typescript. And making Back-end services using NodeJS and Databases such as (Dynamodb, Mongodb and PostgreSQL)",
 }
 
 export const SOCIALS = [

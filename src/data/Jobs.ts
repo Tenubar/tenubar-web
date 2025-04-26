@@ -44,6 +44,21 @@ interface WorkExperience {
  */
 const workExperience:WorkExperience[] = [
     {
+        title: "Integration & Automation Developer for Sokka.ai",
+        startDate: "2025-02-24",
+        endDate: "2025-04-18",
+        company: "Sokkar.ai",
+        location: "Remote",
+        description: "Built a platform that has multiple trainable AI models which can provide solutions for a client's needs.",
+        goals: [
+            "Create personalized AI solutions for a client",
+            "Integrate multiple AI models into a single platform",
+            "Create a Logging system to track the performance of the AI models",
+            "Create a system to train the AI models with the client's data",
+        ],
+        currentJob: true,
+    },
+    {
         title: "Full-Stack Developer for SolarTech",
         startDate: "2023-11-10",
         company: "SolarTech",

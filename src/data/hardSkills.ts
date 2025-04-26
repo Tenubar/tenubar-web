@@ -16,19 +16,29 @@ const hardSkills: HardSkill[] = [
     icon: "javascript"
   },
   {
+    name: "Typescript",
+    description: "A great game maker software i use to make games, i have plenty of experience using it",
+    icon: "typescript"
+  },
+  {
+    name: "React",
+    description: "My favorite Javascript framework for building games for mobile and web",
+    icon: "reactsvg"
+  },
+  {
+    name: "Vite",
+    description: "My favorite Javascript framework for building games for mobile and web",
+    icon: "vitejs"
+  },
+  {
     name: "PostgreSQL",
-    description: "The database i use for modern apps",
+    description: "The database i use for mobile apps",
     icon: "mongodb"
   },
   {
-    name: "Blender",
-    description: "I do modeling, rendering, animations and environments in Blender",
+    name: "MongoDB",
+    description: "The database i use for modern webs, login forms, chats and others",
     icon: "blender"
-  },
-  {
-    name: "Phaser",
-    description: "My favorite Javascript framework for building games for mobile and HTML5",
-    icon: "react"
   },
   {
     name: "Clickteam Fusion 2.5",

@@ -1,19 +1,19 @@
 {
-  "name": "astro-simple-portfolio",
+  "name": "tenubar-portfolio",
   "type": "module",
   "version": "1.1.0",
-  "description": "free and open-source portfolio template site built with Astro.",
+  "description": "portfolio site built with Astro.",
   "license": "MIT",
   "private": true,
   "author": {
-    "name": "Victor Alvarado"
+    "name": "Tenubar"
   },
-  "homepage": "https://simple-portfolio.vicbox.dev",
+  "homepage": "https://tenubar.onrender.com/",
   "contributors": [
     {
       "name": "Tenubar",
       "email": "tenubarr@gmail.com",
-      "url": "https://victoralvarado.dev"
+      "url": "https://tenubar.onrender.com/"
     }
   ],
   "keywords": [
