@@ -17,22 +17,22 @@ const hardSkills: HardSkill[] = [
   },
   {
     name: "Typescript",
-    description: "A great game maker software i use to make games, i have plenty of experience using it",
+    description: "TS is the standard programming language i use to make web pages",
     icon: "typescript"
   },
   {
     name: "React",
-    description: "My favorite Javascript framework for building games for mobile and web",
+    description: "Framework i use to build front-end and dynamic apps",
     icon: "reactsvg"
   },
   {
     name: "Vite",
-    description: "My favorite Javascript framework for building games for mobile and web",
+    description: "Vite helps me speed up the development of my web-apps!",
     icon: "vitejs"
   },
   {
     name: "PostgreSQL",
-    description: "The database i use for mobile apps",
+    description: "The database i use for more complicated mobile apps",
     icon: "mongodb"
   },
   {
