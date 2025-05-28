@@ -1,7 +1,7 @@
 export const SITE = {
-    website: "https://simple-portfolio.vicbox.dev", // replace this with your deployed domain
+    website: "https://tenubar.onrender.com/", 
     title: "Tenubar",
-    description: "Mi portafolio de desarrollador",
+    description: "My Developer Portfolio",
     tags: ["portfolio", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
     logo: "logo",

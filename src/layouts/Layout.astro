@@ -3,6 +3,7 @@ import {ClientRouter} from 'astro:transitions';
 import {cn} from "../lib/utils";
 import '@/styles/globals.css'
 
+import ThemeToggle from '../components/ThemeToggle.jsx';
 import Navbar from "../components/Navbar.astro";
 import Footer from "../components/Footer.astro";
 
@@ -56,12 +57,12 @@ const {
     <meta property="twitter:title" content={title}/>
     <meta property="twitter:description" content={description}/>
     <meta property="twitter:image" content={imageOg}/>
-
     <title>{title}</title>
     <ClientRouter/>
 </head>
 <body class="bg-light-theme dark:bg-dark-theme antialiased text-n700 dark:text-light-theme w-full h-screen flex flex-col">
 <Navbar/>
+<ThemeToggle client:load />
 <main class="container py-24 flex gap-8 flex-col" role="main"  id="top">
     <slot/>
 </main>

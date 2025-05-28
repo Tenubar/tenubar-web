@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    darkMode: ['media'],
+    darkMode: 'class',
     content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		container: {
@@ -24,6 +24,9 @@ export default {
 				'light-theme': '#E9EBEC',
 				'primary-light': '#FBD144',
 				'primary-hover-light': '#FFE071',
+				// 'light-theme': '#0C151D',
+				// 'primary-light': '#FFE071',
+				// 'primary-hover-light': '#FBD144',
 
 				// Dark mode colors
 				'dark-theme': '#0C151D',

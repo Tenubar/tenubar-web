@@ -8,8 +8,13 @@ import {menu} from "../data/menu";
 // config import
 import {SITE} from "../config";
 
+// themes import
+import ThemeToggle from './ThemeToggle.jsx';
+import { menu } from '../data/menu';
+
 const pathname = Astro.url.pathname;
 ---
+
 
 <nav class="bg-white dark:bg-n700 fixed w-full z-20 top-0 start-0 " id="menu">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -32,23 +37,25 @@ const pathname = Astro.url.pathname;
             </button>
         </div>
         <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-2" id="navbar-sticky">
-            <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700">
-                {
-                    menu.map((item) => (
-                            <li>
-                                <a
-                                        href={item.href}
-                                        class:list={{
-                                            ["block py-2 px-3 rounded md:p-0"]: true,
-                                            ["active"]: pathname === item.href,
-                                        }}>{item.label}
-                                </a>
-                            </li>
-                    ))
-                }
-            </ul>
-        </div>
-    </div>
+            <ul class="flex flex items-center p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700 flex-items-center">
+            {
+            menu.map((item) => (
+                <li>
+                    <a
+                        href={item.href}
+                        class:list={{
+                            ["block py-2 px-3 rounded md:p-0"]: true,
+                            ["active"]: pathname === item.href,
+                        }}>{item.label}
+                    </a>
+                </li>
+        ))
+        }
+                                                    <li>
+            <ThemeToggle client:load />
+            </li>
+    </ul>
+</div>
 </nav>
 
 <style>
