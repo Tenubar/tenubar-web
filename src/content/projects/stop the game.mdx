@@ -1,0 +1,71 @@
+---
+title: Stop! The Game
+summary: Stop! The Game is a multiplayer word game built with React Native (Expo) and Node.js, featuring real-time gameplay, leaderboards, and premium subscriptions.
+tags:
+    - React Native
+    - Expo
+    - NodeJS
+    - Socket.IO
+    - MongoDB
+    - Stripe
+startDate: 2024-01-01
+endDate: 2026-01-16
+author: Tenubar
+url: 'https://stopthegame.onrender.com'
+cover: './images/stop-the-game/stop-the-game-cover-og.webp'
+ogImage: './images/stop-the-game/stop-the-game-cover.webp'
+---
+
+## Table of Contents
+1. [Overview](#overview)
+2. [Key Features](#key-features)
+3. [Role](#role)
+4. [Goal](#goal)
+5. [Challenges and Learnings](#challenges-and-learnings)
+6. [Final Thoughts](#final-thoughts)
+
+---
+
+## Overview
+**Stop! The Game** is a real-time, multiplayer word game built with **React Native (Expo)** on the front end and **Node.js + MongoDB** on the back end. Players can register with email or Google, play as guests, create or join rooms, chat globally, and compete on leaderboards. The app focuses on smooth real-time sync, fair validation, and a polished cross-platform experience across mobile, web, and tablet layouts.
+
+**Visit the Game Website:** https://stopthegame.onrender.com
+
+**Visit the Game at Itch.io:** https://tenubar.itch.io/stop-the-game
+
+---
+
+## Key Features
+1. **Real-time Multiplayer:** Socket.IO rooms for live gameplay, lobbies, and chat.
+2. **Authentication + Guests:** JWT auth with email verification, Google OAuth, and guest sessions.
+3. **Leaderboards:** Global, weekly, and friends rankings.
+4. **Premium Access:** One-time payment unlock with Stripe and PayPal support.
+5. **AI Validation:** OpenAI-assisted answer validation with fallback rules and resync logic.
+6. **Cross-Platform UI:** Responsive layouts for mobile, web, and tablets with fixed action footers.
+
+---
+
+## Role
+**Lead Developer**
+
+---
+
+## Goal
+1. Build a reliable, real-time multiplayer word game with a smooth round flow.
+2. Deliver a polished cross-platform UI that scales to mobile, web, and tablet.
+3. Support growth with premium access, leaderboards, and safe validation.
+
+---
+
+## Challenges and Learnings
+1. **Real-time Sync:** Preventing missed STOP/round-end events required resync and validation retries.
+2. **Session Safety:** Handling reconnects, duplicate sessions, and background disconnects to avoid ghost players.
+3. **Language Enforcement:** Room-level language consistency across gameplay and AI validation.
+
+---
+
+## Final Thoughts
+1. **Gameplay First:** Fast, clear gameplay flows are critical for multiplayer retention.
+2. **Continuous Improvement:** We keep refining validation, UI polish, and reliability as the game grows.
+
+---
