@@ -1,4 +1,4 @@
-# Stop! The Game 🎮
+# Stop! Game 🎮
 
 A multiplayer word game built with React Native (Expo) and Node.js, featuring real-time gameplay, leaderboards, and premium subscriptions.
 
