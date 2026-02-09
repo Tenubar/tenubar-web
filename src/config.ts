@@ -19,11 +19,11 @@ export const ME = {
     profileImage: "pp2.png",
     profileFacts: [
         {
-            value: 4,
+            value: 6,
             description: "Years of Experience"
         },
         {
-            value: 5,
+            value: 6,
             description: "Completed Projects"
         },
     ],
