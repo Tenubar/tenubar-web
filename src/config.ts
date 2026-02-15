@@ -1,5 +1,5 @@
 export const SITE = {
-    website: "https://tenubar.onrender.com/", 
+    website: "https://tenubar.org/", 
     title: "Tenubar",
     description: "My Developer Portfolio",
     tags: ["portfolio", "Resume cv", "Astro"],
@@ -15,7 +15,7 @@ export const SITE = {
 
 export const ME = {
     name: "Tenubar",
-    profession: "Antonio Barreto",
+    profession: "Antonio Barreto | App Developer",
     profileImage: "pp2.png",
     profileFacts: [
         {
