@@ -30,7 +30,7 @@ export const ME = {
     contactInfo: {
         email: "dev@tenubar.org",
     },
-    aboutMe: "I am Antonio Barreto, a Web, App & Game Developer. With high experience in Building High-End Phone Apps and Web Platforms using several frontend libraries, such as React, React Native and Javascript/Typescript and many more. I also make SaaS, Back-end services using NodeJS, Automation Apps and i use databases such as Dynamodb, Mongodb and PostgreSQL",
+    aboutMe: "I am Antonio Barreto, a Web, App & Game Developer. I have extensive experience building high-end mobile apps and web platforms using various frontend libraries, such as React, React Native, and JavaScript/TypeScript, among others. I also build SaaS and backend services using Node.js, automation apps, and databases such as DynamoDB, MongoDB, and PostgreSQL.",
 }
 
 export const SOCIALS = [
