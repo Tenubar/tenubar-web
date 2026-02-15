@@ -15,7 +15,7 @@ export const SITE = {
 
 export const ME = {
     name: "Tenubar",
-    profession: "Jonathan Barreto",
+    profession: "Antonio Barreto",
     profileImage: "pp2.png",
     profileFacts: [
         {
@@ -28,9 +28,9 @@ export const ME = {
         },
     ],
     contactInfo: {
-        email: "tenubarr@gmail.com",
+        email: "dev@tenubar.org",
     },
-    aboutMe: "I am Jonathan Barreto, a Web, App & Game Developer. With high experience in Building Platforms with React, Javascript and Typescript. And making Back-end services using NodeJS and Databases such as (Dynamodb, Mongodb and PostgreSQL)",
+    aboutMe: "I am Antonio Barreto, a Web, App & Game Developer. With high experience in Building High-End Phone Apps and Web Platforms using several frontend libraries, such as React, React Native and Javascript/Typescript and many more. I also make SaaS, Back-end services using NodeJS, Automation Apps and i use databases such as Dynamodb, Mongodb and PostgreSQL",
 }
 
 export const SOCIALS = [
@@ -60,9 +60,9 @@ export const SOCIALS = [
     },
     {
         name: "TikTok",
-        url: "",
+        url: "https://www.tiktok.com/@tenubar3",
         icon: "tik-fill",
-        show: false
+        show: true
     },
     {
         name: "GitHub",
