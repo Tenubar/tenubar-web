@@ -61,7 +61,7 @@ export const SOCIALS = [
     {
         name: "TikTok",
         url: "https://www.tiktok.com/@tenubar3",
-        icon: "tik-fill",
+        icon: "tiktok-fill",
         show: true
     },
     {
